@@ -26,11 +26,13 @@ The only option is `-d`, which allows you to get the details of running process 
 
 **Line 2 and below** is the *raw data*.
 
-You need to make sure the **last line** is *empty line*.
+You need to make sure the **last line** is an *empty line*.
 
 ## Filters CSV
 ```
 $2,$4,$5
+"filter 1", "filter 2", "filter 3"
+"filter 1", "filter 2", "filter 3"
 "filter 1", "filter 2", "filter 3"
 
 ```
@@ -39,7 +41,7 @@ $2,$4,$5
 
 **Line 2 and below** is the *filter values*.
 
-You need to make sure the **last line** is *empty line*.
+You need to make sure the **last line** is an *empty line*.
 
 Currently you can use up to 5 filters.
 
